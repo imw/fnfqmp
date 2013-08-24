@@ -1,0 +1,5 @@
+uci set altermap.agent=altermap
+uci set altermap.agent.enabled=1
+uci set altermap.agent.server_url=http://map.qmp.cat/altermap
+uci set altermap.agent.network=kcfn
+uci commit altermap
